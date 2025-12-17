@@ -2,11 +2,11 @@
 import psycopg2
 from sqlalchemy import create_engine
 
-RDS_HOST = "apan5450-postgres.clkygjbv9yeo.us-east-1.rds.amazonaws.com"
+RDS_HOST = ""
 RDS_PORT = 5432
-RDS_DB   = "postgres"
-RDS_USER = "apanuser"
-RDS_PW   = "apanuser1"  # 나중에 .env로 빼면 더 안전
+RDS_DB   = ""
+RDS_USER = ""
+RDS_PW   = ""  
 
 def get_psycopg_connection():
     return psycopg2.connect(
