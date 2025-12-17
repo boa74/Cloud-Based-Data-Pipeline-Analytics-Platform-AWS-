@@ -27,6 +27,14 @@ submission/
 
 This project demonstrates a comprehensive **Cloud Computing Data Pipeline** using AWS services to analyze the relationship between market volatility, depression index, and various economic indicators.
 
+## What I Built (End-to-End)
+- Designed the AWS pipeline architecture (S3 → EC2 ETL → RDS → EC2 Streamlit) and documented the full data flow.
+- Implemented the ETL pipeline: cleaning, merging multi-source datasets, and generating final analytics tables.
+- Designed and implemented the PostgreSQL schema and loading logic (batch inserts, validation, error handling).
+- Built the Streamlit dashboard with caching, page routing, and interactive analytics views.
+- Produced analysis scripts for correlation/volatility/time-series insights and integrated results into the UI.
+
+
 ### Key Technologies:
 - **AWS S3**: Raw data storage
 - **AWS RDS (PostgreSQL)**: Structured data storage  
