@@ -60,16 +60,21 @@ and reproducible data processing workflows.
 ```
 📁 Project Structure
 
-├── architecture/ # Architecture diagrams and design rationale
-├── Lambda/ # AWS Lambda functions (ingestion / orchestration)
+📁 Project Structure
+
+├── architecture/          # Architecture diagrams and design rationale
+├── Lambda/                # AWS Lambda functions (ingestion / orchestration)
 ├── src/
-│ ├── streamlit_app/ # Streamlit dashboard
-│ ├── etl/ # ETL pipelines
-│ └── analysis/ # Analysis scripts
-├── sql/ # PostgreSQL schema
-├── docs/ # Detailed documentation (course-level)
+│   ├── streamlit_app/     # Streamlit dashboard
+│   ├── etl/               # ETL pipelines
+│   └── analysis/          # Analysis scripts
+├── sql/                   # PostgreSQL schema
+├── docs/                  # Detailed documentation
+│   └── demo/
+│       └── demo_video.md  # Demo video link
 ├── README.md
 └── requirements.txt
+
 
 ```
 
