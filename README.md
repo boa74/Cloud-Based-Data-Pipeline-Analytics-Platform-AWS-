@@ -10,7 +10,7 @@ lightweight user-facing application.
 ## Architecture
 
 ### Implemented Architecture
-![Implemented Architecture](architecture/architecture-diagram.png)
+![Implemented Architecture](architecture/architecture_design_plan.png)
 
 ### Initial Design (Planned)
 ![Planned Architecture](architecture/architecture-planned.png)
