@@ -15,6 +15,22 @@ lightweight user-facing application.
 ### Implemented Architecture
 ![Planned Architecture](architecture/implementation_overview.drawio.png)
 
+### Architecture Note
+The implemented architecture reflects practical AWS constraints and
+intentional design choices.
+
+Amazon RDS, which stores structured application data, was placed in a
+private subnet to limit direct network exposure.
+
+EC2 instances were deployed in a public subnet to simplify access and
+deployment across lab environments and regions, with access controlled
+through security groups.
+
+Amazon S3 was not placed within a subnet, as it is a managed AWS service.
+Access to S3 was restricted using IAM roles rather than network isolation.
+
+S3 lifecycle features such as Glacier were intentionally excluded, as
+long-term archival was not required for the scope of this project.
 
 ---
 
