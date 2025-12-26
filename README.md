@@ -3,24 +3,26 @@
 ## 📁 Project Structure
 
 ```
-submission/
-├── README.md                          # This documentation file
-├── requirements.txt                   # Python dependencies
-├── src/                              # Source code directory
-│   ├── streamlit_app/                # Dashboard application
-│   │   └── app_cloud.py             # Main Streamlit dashboard
-│   ├── etl/                          # ETL pipeline scripts
-│   │   ├── upload_to_rds.py         # Data upload to RDS
-│   │   ├── create_ultimate_dataset.py # Ultimate dataset creation
-│   │   ├── create_final_dataset.py   # Final dataset processing
-│   │   └── create_cleaned_datasets.py # Data cleaning pipeline
-│   └── analysis/                     # Analysis scripts
-│       ├── Cloud_Computing_Project_analysis.py # Main analysis
-│       └── rds_connection.py         # RDS connection utilities
-├── sql/                              # Database schema
-│   └── Cloud_Computing_Project_SQLSchema.sql # PostgreSQL schema
-└── docs/                             # Documentation
-    └── ARCHITECTURE_FLOW.md          # Architecture overview
+📁 Project Structure
+
+├── README.md                  # Project overview and documentation
+├── requirements.txt           # Python dependencies
+├── src/                       # Source code
+│   ├── streamlit_app/         # Streamlit dashboard
+│   │   └── app_cloud.py
+│   ├── etl/                   # ETL pipeline scripts
+│   │   ├── upload_to_rds.py
+│   │   ├── create_ultimate_dataset.py
+│   │   ├── create_final_dataset.py
+│   │   └── create_cleaned_datasets.py
+│   └── analysis/              # Analysis scripts
+│       ├── Cloud_Computing_Project_analysis.py
+│       └── rds_connection.py
+├── sql/                       # PostgreSQL schema
+│   └── Cloud_Computing_Project_SQLSchema.sql
+├── docs/                      # Documentation
+│   └── ARCHITECTURE_FLOW.md
+
 ```
 
 ## 🎯 Project Overview
