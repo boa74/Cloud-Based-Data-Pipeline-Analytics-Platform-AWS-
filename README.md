@@ -9,9 +9,12 @@ lightweight user-facing application.
 
 ## Architecture
 
-👉 [View Architecture Diagram and Design Rationale](architecture/README.md)
+### Implemented Architecture
+![Implemented Architecture](architecture/architecture-diagram.png)
 
-![AWS Architecture Diagram](architecture/architecture-diagram.png)
+### Initial Design (Planned)
+![Planned Architecture](architecture/architecture-planned.png)
+
 
 ---
 
