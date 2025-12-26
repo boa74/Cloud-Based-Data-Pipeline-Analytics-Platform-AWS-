@@ -29,6 +29,11 @@ Access to S3 was restricted using IAM roles rather than network isolation.
 long-term archival was not required for the scope of this project.
 
 ---
+## Demo
+
+A short end-to-end demo video of the working system:
+👉 [Watch Demo Video](docs/demo/demo_video.md)
+---
 
 ## Project Overview
 
