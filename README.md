@@ -13,7 +13,7 @@ lightweight user-facing application.
 ![Implemented Architecture](architecture/architecture_design_plan.png)
 
 ### Implemented Architecture
-![Planned Architecture](architecture/architecture-planned.png)
+![Planned Architecture](architecture/implementation_overview.drawio.png)
 
 
 ---
