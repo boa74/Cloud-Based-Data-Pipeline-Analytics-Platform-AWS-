@@ -37,7 +37,7 @@ A short end-to-end demo video of the working system:
 ---
 
 ## Project Overview
-
+s
 This project demonstrates the design and implementation of a cloud-based
 data pipeline that integrates multiple external data sources, performs
 ETL processing, and delivers analytics-ready datasets through a
