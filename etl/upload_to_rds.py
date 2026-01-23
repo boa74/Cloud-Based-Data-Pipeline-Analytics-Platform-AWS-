@@ -24,11 +24,11 @@ logger = logging.getLogger(__name__)
 
 # RDS Connection Information
 DB_CONFIG = {
-    'host': "apan5450-postgres.clkygjbv9yeo.us-east-1.rds.amazonaws.com",
-    'port': 5432,
-    'database': "apan5450-postgres", 
-    'user': "apanuser",
-    'password': "apanuser1"
+    'host': 'host',
+    'port':'port',
+    'database': 'database', 
+    'user': 'user',
+    'password': 'password'
 }
 
 # File mapping: local file -> RDS table name
