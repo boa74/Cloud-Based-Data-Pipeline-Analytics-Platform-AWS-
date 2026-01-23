@@ -11,12 +11,11 @@ from scipy.stats import pearsonr
 # Fill in with your actual RDS info
 # DB connection
 
-DB_USER = "apanuser"
-DB_PASS = "apanuser1"
-DB_HOST = "apan5450-postgres.clkygjbv9yeo.us-east-1.rds.amazonaws.com"
-DB_PORT = 5432
-DB_NAME = "apan5450-postgres"   
-
+DB_USER = "DB_USER"
+DB_PASS = "DB_PASS"
+DB_HOST = "DB_HOST"
+DB_PORT = "DB_PORT"
+DB_NAME = "DB_NAME"   
 
 engine = create_engine(
     f"postgresql+psycopg2://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
