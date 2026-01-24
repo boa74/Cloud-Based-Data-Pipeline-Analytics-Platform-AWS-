@@ -51,7 +51,7 @@ and reproducible data processing workflows.
 ## What I Built (End-to-End)
 
 - Designed the AWS pipeline architecture  
-  (S3 → Lambda / EC2 ETL → RDS → EC2 Streamlit)
+  (EventBridge → Lambda → S3 → EC2 ETL → RDS → EC2 Streamlit)
 - Implemented Python-based ETL pipelines to clean, merge, and transform
   multi-source datasets
 - Designed and implemented a PostgreSQL schema optimized for analytics queries
