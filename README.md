@@ -65,7 +65,6 @@ and reproducible data processing workflows.
 ```
 ├── README.md
 ├── requirements.txt
-├── analysis/              # (Empty - analysis scripts)
 ├── architecture/          # Architecture diagrams and documentation
 │   └── README.md
 ├── Dash board/            # Streamlit dashboard application
