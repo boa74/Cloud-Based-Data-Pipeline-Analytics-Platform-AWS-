@@ -32,12 +32,12 @@ long-term archival was not required for the scope of this project.
 ## Demo
 
 A short end-to-end demo video of the working system:
-👉 [Watch Demo Video](docs/demo/demo_video.md)
+👉 [Watch Demo Video](demo/demo_video.md)
 
 ---
 
 ## Project Overview
-s
+
 This project demonstrates the design and implementation of a cloud-based
 data pipeline that integrates multiple external data sources, performs
 ETL processing, and delivers analytics-ready datasets through a
@@ -62,26 +62,32 @@ and reproducible data processing workflows.
 
 ## Project Structure
 
-
 ```
-📁 Project Structure
-
-📁 Project Structure
-
-├── architecture/          # Architecture diagrams and design rationale
-├── Lambda/                # AWS Lambda functions (ingestion / orchestration)
-├── src/
-│   ├── streamlit_app/     # Streamlit dashboard
-│   ├── etl/               # ETL pipelines
-│   └── analysis/          # Analysis scripts
-├── sql/                   # PostgreSQL schema
-├── docs/                  # Detailed documentation
-│   └── demo/
-│       └── demo_video.md  # Demo video link
 ├── README.md
-└── requirements.txt
-
-
+├── requirements.txt
+├── analysis/              # (Empty - analysis scripts)
+├── architecture/          # Architecture diagrams and documentation
+│   └── README.md
+├── Dash board/            # Streamlit dashboard application
+│   └── streamlit_app/
+│       ├── app_cloud.py
+│       └── README.md
+├── demo/                  # Demo video and materials
+│   └── demo_video.md
+├── docs/                  # Technical documentation
+│   └── ARCHITECTURE_FLOW.md
+├── etl/                   # ETL pipeline scripts
+│   ├── 01_data_cleaning.py
+│   ├── 02_transform_industry.py
+│   ├── 03_transform_complete.py
+│   ├── 04_load_to_rds.py
+│   └── README.md
+├── Lambda/                # AWS Lambda functions
+│   ├── lambda_function.py
+│   └── README.md
+└── sql/                   # Database schema and queries
+    ├── schema.sql
+    └── README.md
 ```
 
 
