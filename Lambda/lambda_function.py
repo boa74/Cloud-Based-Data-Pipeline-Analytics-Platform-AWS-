@@ -6,7 +6,7 @@ import boto3
 
 s3 = boto3.client("s3")
 
-BUCKET_NAME = os.environ.get("BUCKET_NAME", "apan5450-stock")
+BUCKET_NAME = os.environ.get("BUCKET_NAME", "BUCKET_NAME")
 
 
 def fetch_json(url: str) -> dict:
