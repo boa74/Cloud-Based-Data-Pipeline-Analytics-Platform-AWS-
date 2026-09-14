@@ -155,11 +155,11 @@ st.markdown("""
 
 # RDS Configuration - Update these for your deployment
 DB_CONFIG = {
-    'host': 'apan5450-boa.clkygjbv9yeo.us-east-1.rds.amazonaws.com',
-    'port': 5432,
-    'database': 'postgres',
-    'user': 'apan54502',  # Updated username
-    'password': 'apan54502'
+    'host': 'host',
+    'port': 'port,
+    'database': 'database',
+    'user': 'user',  # Updated username
+    'password': 'password'
 }
 
 @st.cache_resource
